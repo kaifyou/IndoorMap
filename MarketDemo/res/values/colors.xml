@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#EEEEEE</color>
+    <color name="text_gray">#8C8B8B</color>
+    <color name="black_tab">#2D3341</color>
+    <color name="red_tab">#E03E3E</color>
+    <color name="bule">#149BF7</color>
+    <color name="white">#FFFFFF</color>
+     <color name="blue_tab">#176281</color>
+     <color name="green_button">#1CAA94</color>
+     
+</resources>

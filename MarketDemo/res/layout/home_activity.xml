@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/title_text"
+        style="@style/activity_title_text"
+        android:background="@color/black_tab"
+        android:gravity="center"
+        android:text="商场信息" />
+       <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:orientation="vertical">
+     <LinearLayout
+		        android:id="@+id/headLiner"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		       >
+      		</LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center">
+	        
+        	<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_marginRight="7dp"
+		        android:gravity="center"
+		        android:layout_marginTop="4dip">
+	            <ImageView
+		            android:id="@+id/vip_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_member_n" />
+            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="会员卡"/>
+       	 	</LinearLayout>
+			<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_marginRight="7dp"
+		        android:gravity="center"
+		        android:layout_marginTop="4dip">
+	        	<ImageView
+		            android:id="@+id/product_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_product_n" />
+		        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="淘精品"/>
+			</LinearLayout>
+			<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_marginRight="7dp"
+		        android:layout_marginTop="4dip">
+		        <ImageView
+		            android:id="@+id/cinema_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_cinema_n" />
+		        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="看电影"/>
+	        </LinearLayout>
+	        <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_marginRight="7dp"
+		        android:layout_marginTop="4dip">
+		        <ImageView
+		            android:id="@+id/singer_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_ktv_n" />
+		        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="汇合点"/>
+	        </LinearLayout>
+    	</LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip" 
+	        
+	        android:gravity="center" >
+			<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_marginRight="7dp"
+		        android:gravity="center"
+		        android:layout_marginTop="4dip">
+		        <ImageView
+		            android:id="@+id/wifi_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_wifi_n" />
+		 		<TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="无线网"/>
+	 		</LinearLayout>
+	 		<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:layout_marginRight="7dp"
+		        android:gravity="center"
+		        android:layout_marginTop="4dip">
+		        <ImageView
+		            android:id="@+id/store_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_store_n" />
+		 		<TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="找商场"/>
+	 		</LinearLayout>
+ 			<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_marginRight="7dp"
+		        android:layout_marginTop="4dip">
+		        <ImageView
+		            android:id="@+id/augmented_car"
+		            style="@style/channel_type_style"
+		            android:src="@drawable/icon_home_augmented_reality_n" />
+		         <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="导航"/>
+		         </LinearLayout>
+         <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        android:layout_marginTop="4dip">
+        <ImageView
+            android:id="@+id/parking_car"
+            style="@style/channel_type_style"
+            android:src="@drawable/icon_home_parking_n" />
+        
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="找我车"/>
+         </LinearLayout>
+        
+    </LinearLayout>
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shou_ye_4"/>
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shou_ye_2"/>
+      <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shou_ye_3"/>
+      <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shou_ye_4"/>
+      <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shou_ye_5"/>
+    </LinearLayout>
+     </ScrollView>
+</LinearLayout>
